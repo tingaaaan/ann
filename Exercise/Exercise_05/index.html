@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise_05</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            
+            font-size: 2rem;
+            margin: 0;
+            
+        }
+        header{
+            background-color: burlywood;
+        }
+        .a{
+            flex-grow: 1;
+            display: flex;
+            flex-direction: row;
+            min-height: 85vh;
+        }
+        main{
+            background-color: darkolivegreen;
+            flex-grow: 2;
+        }
+        aside{
+            background-color: cadetblue;
+            flex-grow: 1;
+        }
+        footer{
+            background-color: darkgoldenrod;
+            min-height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>header</header>
+    <div class='a'>
+        <main>Main</main>
+        <aside>Aside</aside>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
