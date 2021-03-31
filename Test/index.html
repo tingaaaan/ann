@@ -6,44 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
     <style>
-        body{
-            display: flex;
-            flex-direction: column;
-            
+        body {
             font-size: 2rem;
-            margin: 0;
-            
         }
-        header{
-            background-color: burlywood;
+
+        * {
+            border: 1px black solid;
         }
-        .a{
-            flex-grow: 1;
-            display: flex;
-            flex-direction: row;
-            min-height: 85vh;
+
+        .a {
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 100px 100px;
+            gap:10px
         }
-        main{
-            background-color: darkolivegreen;
-            flex-grow: 2;
-        }
-        aside{
-            background-color: cadetblue;
-            flex-grow: 1;
-        }
-        footer{
-            background-color: darkgoldenrod;
-            min-height: 50px;
+
+        .item4 {
+            grid-area: 2 / 1 / 4 / 3;
         }
 
     </style>
 </head>
 <body>
-    <header>header</header>
     <div class='a'>
-        <main>Main</main>
-        <aside>Aside</aside>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div class='item4'> 4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
     </div>
-    <footer>Footer</footer>
+
 </body>
 </html>
