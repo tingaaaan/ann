@@ -13,13 +13,29 @@
         }
         header{
             background-color: rgb(213, 235, 178);
-            font-size: 2rem;
+            font-size: 2rem; 
         }
         .a{
             flex-grow: 1;
             display: flex;
             flex-direction: row;
             min-height: 90vh;
+            text-align: center;
+        }
+        .b{
+            border: 1px solid #000;
+            border-width: 2px;
+            border-radius:2ch;
+            background-color:  rgba(185, 163, 123, 0.603));
+    
+        }
+        .c{
+            border: 1px solid #000;
+            border-width: 2px;
+            width: 280px;
+            border-radius:2ch;
+            background-color: cyan;
+            justify-content: center;
         }
         main{
             background-color: rgb(204, 216, 184);
@@ -27,6 +43,7 @@
         }
         aside{
             background-color: cadetblue;
+            width: 350px;
         }
         footer{
             color: wheat;
@@ -46,15 +63,64 @@
     </header>
     <div class='a'>
         <aside>
-            門市據點
-            <div>
-            <p style="background-color: teal;">黎明門市</p>
-            <p style="background-color: teal;">學府門市</p>
-            <p style="background-color: teal;">勝利門市</p>
-            </div>
+            <table class="b">
+                <caption>門市據點</caption>
+                <tbody>
+                    <tr>
+                        <td>
+                            <table class="c">
+                                <thead>
+                                    <tr>
+                                        <th>黎明門市</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            地址: 台中市南屯區黎明路二段209號<br>
+                                            營業時間: 星期一~五: 8:00-20:00
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="c">
+                                <thead>
+                                    <tr>
+                                        <th>學府門市</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            地址: 台中市南區學府路46號<br>
+                                            營業時間: 星期一~五: 7:30-22:30
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="c">
+                                <thead>
+                                    <tr>
+                                        <th>勝利門市</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            地址: 台中市潭子區勝利路139號<br>
+                                            營業時間: 星期一~五: 7:00-21:30
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </aside>
         <main>菜單介紹</main>
-        <aside>Aside</aside>
+        
     </div>
     <footer>
         加入我們
