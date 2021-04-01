@@ -16,15 +16,39 @@
         }
         header{
             background-color: #000;
-            font-size: 3rem; 
-            text-align: center;
             color: cornsilk;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 20px;
         }
+
         aside{
             background-color:rgb(66, 105, 105, 0.8);
             width: 200px;
             text-align: center;
         }
+        .t1:hover{
+            color: floralwhite;
+        }
+        .t2:hover{
+            color: floralwhite;
+        }
+        .t3:hover{
+            color: floralwhite;
+        }
+        .t4:hover{
+            color: floralwhite;
+        }
+        .t5:hover{
+            color: floralwhite;
+        }
+        .t6:hover{
+            color: rgb(236, 37, 22);
+        }
+
         main{
             background-color:rgba(235, 212, 179, 0.8);
             background-image: url(image\logo.png);
@@ -34,7 +58,8 @@
             justify-content: center;
         }
         main table{
-            align-content: center;
+            margin-left: auto;
+            margin-right: auto;
         }
         footer{
             background-color: #000;
@@ -47,8 +72,10 @@
         /* table */
         table{
             border:1px solid #000;
-            border-width: 3px;
+            border-width: 4px;
+            border-color: rgb(93, 146, 146);
             border-radius:2ch;
+            width: 800px;
             }
         table caption{
             font-size: 2rem;
@@ -74,8 +101,9 @@
             font-family: 'Noto Sans TC', sans-serif;
             }
         tbody>tr>td#b{
-            background-color: rgb(238, 220, 220);
+            background-color: rgb(230, 187, 187);
             border-radius:1ch;
+            font-family: monospace;
             text-align: center;
             font-size: 30px;
             }
@@ -83,14 +111,17 @@
     </style>
 </head>
 <body>
-    <header>產業尖兵大學</header>
+    <header>
+        <div style="font-size: 3rem;">產業尖兵大學</div>
+        <div class="t6">登入</div>
+    </header>
     <div class="aa">
         <aside>
-            <p>課表</p>
-            <p>課程總攬</p>
-            <p>校園行事曆</p>
-            <p>學期成績</p>
-            <p>體適能</p>
+            <p class="t1">課表</p>
+            <p class="t2">課程總攬</p>
+            <p class="t3">校園行事曆</p>
+            <p class="t4">學期成績</p>
+            <p class="t5">體適能</p>
         </aside>
         <main>
             <table>
