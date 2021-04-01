@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab_06</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        .aa{
+            display: flex;
+            flex-direction: row;
+            min-height: 85vh;
+        }
+        header{
+            background-color: #000;
+            font-size: 3rem; 
+            text-align: center;
+            color: cornsilk;
+        }
+        aside{
+            background-color:rgb(66, 105, 105, 0.8);
+            width: 200px;
+            text-align: center;
+        }
+        main{
+            background-color:rgba(235, 212, 179, 0.8);
+            background-image: url(image\logo.png);
+            flex-grow: 2;
+            align-items: flex-end;
+            text-align: center;
+            justify-content: center;
+        }
+        main table{
+            align-content: center;
+        }
+        footer{
+            background-color: #000;
+            font-size: 1rem; 
+            text-align: center;
+            color: cornsilk;
+        }
+
+
+        /* table */
+        table{
+            border:1px solid #000;
+            border-width: 3px;
+            border-radius:2ch;
+            }
+        table caption{
+            font-size: 2rem;
+        }
+        thead tr th{
+            background-color: #b1bdc5d2;
+            border-radius:2ch;
+            font-size: 20px;
+            width: 100px;
+            }
+        tbody{
+            text-align:center;
+            background-color: rgb(245, 242, 198);
+            }
+        tbody>tr>td{
+            border-radius:2ch;
+        }
+        tbody>tr>td.a{
+            background-color: #b1bdc5d2;
+            border-radius:2ch;
+            }
+        tbody>tr>td>p{
+            font-family: 'Noto Sans TC', sans-serif;
+            }
+        tbody>tr>td#b{
+            background-color: rgb(238, 220, 220);
+            border-radius:1ch;
+            text-align: center;
+            font-size: 30px;
+            }
+
+    </style>
+</head>
+<body>
+    <header>產業尖兵大學</header>
+    <div class="aa">
+        <aside>
+            <p>課表</p>
+            <p>課程總攬</p>
+            <p>校園行事曆</p>
+            <p>學期成績</p>
+            <p>體適能</p>
+        </aside>
+        <main>
+            <table>
+                <caption>課表</caption>
+                <thead>
+                    <tr>
+                        <th> </th>
+                        <th>星期一</th></td>
+                        <th>星期二</th></td>
+                        <th>星期三</th></td>
+                        <th>星期四</th></td>
+                        <th>星期五</th></td>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="a">
+                            <p>09:10</p></td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>軟體工程</br>專題</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>Web基礎</br>程式設計</td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>10:10</p></td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>軟體工程</br>專題</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>Web基礎</br>程式設計</td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>11:10</p></td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>軟體工程</br>專題</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>Web基礎</br>程式設計</td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>12:10</p></td>
+                        <td id="b" colspan="5">
+                            <p class="c">午休</p></td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>13:10</p></td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>軟體工程</br>專題</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>Web基礎</br>程式設計</td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>14:10</p></td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>軟體工程</br>專題</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>Web基礎</br>程式設計</td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>15:10</p></td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>軟體工程</br>專題</td>
+                        <td>python基礎</br>程式設計</td>
+                        <td>Web基礎</br>程式設計</td>
+                    </tr>
+                    <tr>
+                        <td class="a">
+                            <p>16:10</p></td>
+                        <td colspan="5"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <footer>
+        <div>地址:台中市西屯區文華路100號</div>
+        <div>電話:(04)2451-7250</div>
+    </footer>
+</body>
+</html>
