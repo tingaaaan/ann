@@ -13,7 +13,7 @@
         }
         header{
             background-color: rgb(213, 235, 178);
-            font-size: 2rem; 
+            font-size: 3rem; 
         }
         .a{
             flex-grow: 1;
@@ -23,11 +23,10 @@
             text-align: center;
         }
         .b{
-            border: 1px solid #000;
+            border: 1px dashed #000;
             border-width: 2px;
             border-radius:2ch;
             background-color:  rgba(185, 163, 123, 0.603));
-    
         }
         .c{
             border: 1px solid #000;
@@ -36,6 +35,7 @@
             border-radius:2ch;
             background-color: cyan;
             justify-content: center;
+            margin: 10px;
         }
         main{
             background-color: rgb(204, 216, 184);
@@ -44,6 +44,10 @@
         aside{
             background-color: cadetblue;
             width: 350px;
+        }
+        aside table{
+            margin-left: auto;
+            margin-right: auto;
         }
         footer{
             color: wheat;
@@ -64,7 +68,7 @@
     <div class='a'>
         <aside>
             <table class="b">
-                <caption>門市據點</caption>
+                <caption style="font-size: 25px;">門市據點</caption>
                 <tbody>
                     <tr>
                         <td>
@@ -82,7 +86,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table><br>
                             <table class="c">
                                 <thead>
                                     <tr>
@@ -97,7 +101,7 @@
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table><br>
                             <table class="c">
                                 <thead>
                                     <tr>
@@ -119,7 +123,10 @@
                 </tbody>
             </table>
         </aside>
-        <main>菜單介紹</main>
+        <main >
+            <div style="font-size: 25px">菜單價目表</div>
+            <img src="https://live.staticflickr.com/65535/48986119867_01832829ab_b.jpg" width="900">
+        </main>
         
     </div>
     <footer>
