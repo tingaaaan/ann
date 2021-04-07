@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab_06</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        header{
+            background-color: rgb(228, 112, 44);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 20px;
+        }
+        .h1{
+            font-size: 3rem;
+            color: cornsilk;
+        }
+        .h2{
+            color: red;
+        }
+        .aa{
+            display: flex;
+            flex-direction: row;
+            min-height: 85vh;
+        }
+        .bb{
+            border: 1px solid;
+            margin-right: 0;
+        }
+        aside{
+            background-color:rgba(66, 105, 105, 0.295);
+            width: 200px;
+        }
+        main{
+            background-color:rgba(235, 212, 179, 0.8);
+            flex-grow: 2;
+            align-items: flex-end;
+            text-align: center;
+            justify-content: center;
+        }
+        footer{
+            background-color: rgba(0, 0, 0, 0.349);
+            font-size: 1rem; 
+            text-align: center;
+            color: cornsilk;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="h1">MyShop</div>
+            <div class="h2">商品 購物車</div>
+        </header>
+        <div class="aa">
+            <aside>
+                <table class="bb">
+                    <tr>
+                        <td>商品分類</td>
+                    </tr>
+                    <tr>
+                        <td>所有商品</td>
+                    </tr>
+                    <tr>
+                        <td>暢銷商品</td>
+                    </tr>
+                    <tr>
+                        <td>本日精選</td>
+                    </tr>
+                    <tr>
+                        <td>新品上市</td>
+                    </tr>
+                </table>
+
+            </aside>
+            <main>
+                <table>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </table>
+            </main>
+            <aside></aside>
+        </div>
+        <footer>
+            <div>@2021 MyShop All rights reserves</div>
+        </footer>
+    </body>
