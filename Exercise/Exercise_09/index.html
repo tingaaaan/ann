@@ -3,30 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercise_09</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <style>
         #abc{
             display: grid;
-            grid-template: 10fr / 6fr;
+            grid-template: repeat(10,1fr) / repeat(6,1fr);
+            text-align: center;
         }
-        .a{
+        .h1{
+            text-align: center;
+            background-color: rgb(166, 222, 224);
+        }
+        .item1{
+            grid-column: 1 / 4;
+            background-color: gold;
+            border: 3px black solid;
+        }
+        .item2{
+            grid-column: 4 / 7;
+            background-color: gold;
+            border-top: 3px black solid;
+            border-bottom: 3px black solid;
+            border-right: 3px black solid;
+        }
+        .item3{
+            grid-area: 2 / 1 / 6 / 2;
+            background-color: greenyellow;
+            border-left: 3px black solid;
+            border-bottom: 3px black solid;
+        }
+        .item5{
+            border-right: 3px black solid;
+        }
+        .item6{
+            grid-area: 2 / 4 / 5 / 5;
+            background-color: rgb(248, 160, 204);
+        }
+        .item8{
+            border-right: 3px black solid;
+        }
+        .item10{
+            border-right: 3px black solid;
+        }
+        .item12{
+            border-right: 3px black solid;
+        }
+        .item14{
+            border-right: 3px black solid;
+        }
+        .item16{
+            border-right: 3px black solid;
+        }
+        .item17{
+            border-bottom: 3px black solid;
+        }
+        .item18{
+            border-bottom: 3px black solid;
+            border-right: 3px black solid;
+        }
+        .item19{
+            background-color: rgb(255, 74, 165);
+            border-top: 3px black solid;
+            border-bottom: 3px black solid;
+        }
+        .item20{
+            border-top: 3px black solid;
+            border-bottom: 3px black solid;
+        }
+        .item21{
+            border-top: 3px black solid;
+            border-bottom: 3px black solid;
+            border-right: 3px black solid;
+        }
+        .item22{
+            grid-area: 6 / 1 / 10 / 2;
+            background-color: green;
+            border-left: 3px black solid;
+            border-bottom: 3px black solid;
+        }
+        .item23{
+            grid-area: 6 / 2 / 10 / 3;
+            border-bottom: 3px black solid;
+        }
+        .item24{
+            border-right: 3px black solid;
+        }
+        .item25{
+            background-color: rgb(248, 160, 204);
+            border-bottom: 3px black solid;
+        }
+        .item26{
+            border-bottom: 3px black solid;
+        }
+        .item27{
+            border-bottom: 3px black solid;
+            border-right: 3px black solid;
+        }
+        .item28{
+            border-right: 3px black solid;
+        }
+        .item29{
+            grid-area: 7 / 4 / 9 / 5;
+            background-color: rgb(61, 207, 61);
+        }
+        .item31{
+            border-right: 3px black solid;
+        }
+        .item32{
+            border-right: 3px black solid;
+        }
+        .item34{
+            border-right: 3px black solid;
+        }
+        .item35{
+            border-right: 3px black solid;
+            border-bottom: 3px black solid;
+        }
+        .item36{
+            background-color: rgb(61, 207, 61);
+            border-bottom: 3px black solid;
+        }
+        .item37{
+            border-bottom: 3px black solid;
+        }
+        .item38{
+            border-bottom: 3px black solid;
+            border-right: 3px black solid;
+        }
+        .item39{
+            background-color: gold;
+        }
+        .item40{
+            background-color: gold;
+        }
+        .item41{
+            background-color: gold;
+        }
+        .item42{
+            background-color: gold;
+        }
+        .item43{
+            background-color: gold;
+        }
+        .item44{
             background-color: gold;
         }
     </style>
 </head>
 <body>
+    <div class="container-fluid"></div>
+    <h1 class="h1">資產負債表</h1>
     <div id="abc">
-        <div class="a">1</div>
-        <div class="a">2</div>
-        <div class="a">3</div>
-        <div class="a">4</div>
-        <div class="a">5</div>
-        <div class="a">6</div>
-        <div class="a">7</div>
-        <div class="a">8</div>
-        <div class="a">9</div>
-        <div class="a">10</div>
+        <div class="item1">資產</div>
+        <div class="item2">負債及股東權益</div>
+        <div class="item3">流動資產</div>
+        <div class="item4">現金</div>
+        <div class="item5">399,526</div>
+        <div class="item6">流動負債</div>
+        <div>短期借款</div>
+        <div class="item8">1,634,870</div>
+        <div>存貨</div>
+        <div class="item10">819,954</div>
+        <div></div>
+        <div class="item12">1,912,740</div>
+        <div>應收帳款</div>
+        <div class="item14">945,494</div>
+        <div>應付帳款</div>
+        <div class="item16">1277,870</div>
+        <div class="item17"></div>
+        <div class="item18">2,164,974</div>
+        <div class="item19">非流動負債</div>
+        <div class="item20">長期借款</div>
+        <div class="item21">69,600</div>
+        <div class="item22">非流動資產</div>
+        <div class="item23">固定資產</div>
+        <div class="item24"></div>
+        <div class="item25">負債合計</div>
+        <div class="item26"></div>
+        <div class="item27">1,982,340</div>
+        <div class="item28"></div>
+        <div class="item29">股東權益</div>
+        <div>股本</div>
+        <div class="item31">1,102,186</div>
+        <div class="item32">1,361,096</div>
+        <div>保留盈餘</div>
+        <div class="item34">441,544</div>
+        <div class="item35"></div>
+        <div class="item36">股東權益合計</div>
+        <div class="item37"></div>
+        <div class="item38">1,543,730</div>
+        <div class="item39">資產合計</div>
+        <div class="item40"></div>
+        <div class="item41">3,526,070</div>
+        <div class="item42">負債及股東權益</div>
+        <div class="item43"></div>
+        <div class="item44">3,526,070</div>
     </div>
 
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
