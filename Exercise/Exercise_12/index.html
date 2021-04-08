@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise_12</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        #abc{
+            display: grid;
+            grid-template-columns: [c1] 300px [c2] 150px [c3] 800px;
+            grid-template-rows: repeat(3);
+            text-align: center;
+        }
+        .a{
+            grid-column: 1 / 5;
+            height: 100px;
+            background-color: rgb(228, 112, 44);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 20px;
+        }
+        .h1{
+            font-size: 3rem;
+            color: cornsilk;
+        }
+        .h2{
+            color: red;
+            font-size: 20px;
+        }
+        .b{
+            height: 560px;
+        }
+        .c{
+            margin-top: 30px;
+            margin-right: 10px;
+            font-size: 20px;
+        }
+        .t1{
+            background-color: blanchedalmond;
+            border-style: solid;
+        }
+        .t2{
+            background-color: blanchedalmond;
+            border-right: dashed;
+            border-bottom: dashed;
+            border-left: dashed;
+        }
+        .t3{
+            background-color: blanchedalmond;
+            border-right: dashed;
+            border-bottom: dashed;
+            border-left: dashed;
+        }
+        .t4{
+            background-color: blanchedalmond;
+            border-right: dashed;
+            border-bottom: dashed;
+            border-left: dashed;
+        }
+        .t5{
+            background-color: blanchedalmond;
+            border-right: dashed;
+            border-bottom: dashed;
+            border-left: dashed;
+        }
+        .d{
+            display: flex;
+            flex-direction: row;
+            flex-grow: 2;
+            flex-wrap: wrap;
+        }
+        .dd{
+            margin: 30px;
+            border: 1px rgba(0, 0, 0, 0.219) solid;
+        }
+        .d2{
+            display: flex;
+            justify-content: space-around;
+            font-size: 13px;
+            align-items: center;
+        }
+        .d3{
+            font-size: 2rem;
+            text-align: center;
+        }
+        .f{
+            grid-column: 1 / 5;
+            background-color: rgba(0, 0, 0, 0.349);
+            font-size: 1rem; 
+            text-align: center;
+            color: cornsilk;
+        }
+    </style>
+    <body>
+        <div class="container-fluid"></div>
+        <div id="abc">
+            <div class="a">
+                <div class="h1">MyShop</div>
+                <div class="h2">商品 購物車</div>
+            </div>
+            <div class="b"></div>
+            <div class="c">
+                <div class="t1">商品分類</div>
+                <div class="t2">所有商品</div>
+                <div class="t3">暢銷商品</div>
+                <div class="t4">本日精選</div>
+                <div class="t5">新品上市</div>
+            </div>
+            <div class="d">
+                <aside class="dd">
+                    <div><img src="https://i.imgur.com/ZMpETy0b.gif"></div>
+                    <div class="d2">蛋糕<button>加入購物車</button></div>
+                    <div class="d3">NT$ 150</div>
+                </aside>
+                <aside class="dd">
+                    <div><img src="https://i.imgur.com/ODZ7Zpzb.jpg"></div>
+                    <div class="d2">滿滿的點心<button>加入購物車</button></div>
+                    <div class="d3">NT$ 300</div>
+                </aside>
+                <aside class="dd">
+                    <div><img src="https://i.imgur.com/qT3MWAbb.jpg"></div>
+                    <div class="d2">紅色的<button>加入購物車</button></div>
+                    <div class="d3">NT$ 666</div>
+                </aside>
+                <aside class="dd">
+                    <div><img src="https://i.imgur.com/2G16qPab.jpg"></div>
+                    <div class="d2">蛋糕<button>加入購物車</button></div>
+                    <div class="d3">NT$ 85</div>
+                </aside>
+                <aside class="dd">
+                    <div><img src="https://i.imgur.com/fziT4jzb.gif"></div>
+                    <div class="d2">魔術方塊?<button>加入購物車</button></div>
+                    <div class="d3">NT$ 999</div>
+                </aside>
+            </div>
+            <div class="e"> </div>
+            <div class="f">
+                @2021 MyShop All rights reserves
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>    
+    </body>
