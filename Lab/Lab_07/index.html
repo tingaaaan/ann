@@ -29,7 +29,11 @@
         aside{
             background-color:rgb(66, 105, 105, 0.8);
             width: 200px;
+            min-width: 90px;
             text-align: center;
+        }
+        .t1{
+            margin-top: 30px;
         }
         .t1:hover{
             color: floralwhite;
@@ -113,8 +117,11 @@
 </head>
 <body>
     <header>
-        <div style="font-size: 3rem;">產業尖兵大學</div>
-        <div class="t6">登入</div>
+        <h1>
+            逢甲大學
+            <small class="text-muted">產業尖兵課表</small>
+        </h1>
+        <button type="button" class="btn btn-outline-warning">登入</button>
     </header>
     <div class="aa">
         <aside>
@@ -122,11 +129,21 @@
             <p class="t2">課程總攬</p>
             <p class="t3">校園行事曆</p>
             <p class="t4">學期成績</p>
-            <p class="t5">體適能</p>
+            <p class="t5">體適能</p><br><br><br><br><br><br>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">獎勵金</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">青年職前訓練獎勵金</h6>
+                    <p class="card-text">只要符合資格即可獲得$8000/月獎勵金!!</p>
+                    <a href="https://reurl.cc/bzg4KE" target="_blank" class="card-link">前往了解</a>
+                </div>
+            </div>
         </aside>
         <main>
+            <div class="alert alert-success" role="alert">
+                重要通知: 每天都要記得簽到!!!!!
+            </div>
             <table>
-                <caption>課表</caption>
                 <thead>
                     <tr>
                         <th> </th>
@@ -203,7 +220,8 @@
                         <td colspan="5"></td>
                     </tr>
                 </tbody>
-            </table>
+            </table><br>
+            <button type="button" class="btn btn-danger btn-lg">聯絡單位</button>
         </main>
     </div>
     <footer>
