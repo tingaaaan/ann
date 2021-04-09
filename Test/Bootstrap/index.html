@@ -1,14 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Test-Bootsyrap</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
+
 <body>
-    
+    <div class="container">123</div>
+    <div class="container-sm">123</div>
+    <div class="container-md">123</div>
+    <div class="container-lg">123</div>
+    <div class="container-xl">123</div>
+    <div class="container-fluid">123</div><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
+    </div><br>
+
+    <h5>Bootstrap heading</h5>
+    <p class="h5">Bootstrap heading</p><br>
+
+    <h3>
+        Fancy display heading
+        <small class="text-muted">With faded secondary text</small>
+    </h3><br>
+
+    <blockquote class="blockquote text-center">
+        <p class="mb-0">>A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote><br>
+
+    <blockquote class="blockquote text-right">
+        <p class="mb-0">A well-known quote, contained in a blockquote element.</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote><br>
+
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert—check it out!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+        A simple secondary alert—check it out!
+    </div>
+    <div class="alert alert-success" role="alert">
+        A simple success alert—check it out!
+    </div>
+    <div class="alert alert-danger" role="alert">
+        A simple danger alert—check it out!
+    </div>
+    <div class="alert alert-warning" role="alert">
+        A simple warning alert—check it out!
+    </div>
+    <div class="alert alert-info" role="alert">
+        A simple info alert—check it out!
+    </div>
+    <div class="alert alert-light" role="alert">
+        A simple light alert—check it out!
+    </div>
+    <div class="alert alert-dark" role="alert">
+        A simple dark alert—check it out!
+    </div><br>
+
+    <div class="alert alert-primary" role="alert">
+        A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+    </div><br>
+
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div><br>
+
+    <div class="card" style="width: 18rem;">
+        <img src="C:\Users\user\Desktop\ann\image\logo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="https://www.google.com/webhp?hl=zh-TW&sa=X&ved=0ahUKEwjb0uKUlu7vAhUcy4sBHWlGAkYQPAgI" target="_blank" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div><br>
+
+    <div class="card">
+        <div class="card-body">
+            This is some text within a card body.
+        </div>
+    </div><br>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div><br>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <button type="button" class="btn btn-link">Link</button><br><br>
+
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <button type="button" class="btn btn-outline-success">Success</button>
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+    <button type="button" class="btn btn-outline-info">Info</button>
+    <button type="button" class="btn btn-outline-light">Light</button>
+    <button type="button" class="btn btn-outline-dark">Dark</button><br><br>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button><br>
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active">
+          <input type="radio" name="options" id="option1" checked> Active
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option2"> Radio
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="options" id="option3"> Radio
+        </label>
+    </div><br>
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
+
 </html>
