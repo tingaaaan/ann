@@ -3,8 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercise_06</title>
+    <style>
+        header{
+            background-color: rgb(121, 170, 170);
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .a{
+            display: flex;
+            flex-direction: row;
+            background-color: rgba(240, 236, 232, 0.788);
+            height: fit-content;
+            justify-content: center;
+        }
+        aside{
+            width: 200px;
+            min-width: none;
+        }
+        .b{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+        }
+        .b1{
+            background-color: white;
+            height: fit-content;
+        }
+        .b1>h3{
+            margin-left: 50px;
+        }
+        .c1{
+            display: grid;
+            grid-template: repeat(6, 1fr) / [c1] 80px [c2] 800px;
+            margin-left: 50px;
+            height: 250px;
+        }
+        .c3{
+            display: grid;
+            grid-template: repeat(5, 1fr) / [c1] 80px [c2] 800px;
+            margin-left: 50px;
+            height: 230px;
+        }
+        .c4{
+            display: grid;
+            grid-template: repeat(2, 1fr) / [c1] 80px [c2] 800px;
+            margin-left: 50px;
+            height:90px;
+        }
+        .c2{
+            margin-left: 50px;
+        }
+        footer{
+            height: 10px;
+            background-color: rgb(121, 170, 170);
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>個人簡歷網站</h1>
+        <h2>陳亭安</h2>
+    </header>
+    <div class="a">
+        <aside></aside>
+        <div class="b">
+            <br>
+            <div class="b1">
+                <h3>基本資料</h3><hr style="border: solid rgb(121, 170, 170);"><br>
+                <div class="c1">
+                    <div><strong>個人資料</strong></div>
+                    <div>女</div>
+                    <div><strong>就業狀態</strong></div>
+                    <div>待業中</div>
+                    <div><strong>主要手機</strong></div>
+                    <div>0972169411</div>
+                    <div><strong>Email</strong></div>
+                    <div>8281angle@gmail.com</div>
+                    <div><strong>通訊地址</strong></div>
+                    <div>新北市蘆洲區民權路188-3號2樓</div>
+                    <div><strong>英文姓名</strong></div>
+                    <div>Ann</div>
+                </div>
+            </div><br>
+
+
+            <div class="b1">
+                <h3>專長</h3><hr style="border: solid rgb(121, 170, 170);"><br>
+                <div class="c2">
+                    <div><strong>電腦繪圖</strong></div><hr width="80px" style="margin-left: 0; border-top: solid rgb(121, 170, 170);">
+                    <li>Autocad</li>
+                    <li>Solidwork</li><br>
+                    <div><strong>製作網頁</strong></div><hr width="80px" style="margin-left: 0; border-top: solid rgb(121, 170, 170);">
+                    <li><a href="https://tingaaaan.github.io/ann/Exercise/index.html">Exercise練習</a></li>
+                    <li><a href="https://tingaaaan.github.io/ann/Lab/">Lab練習</a></li><br>
+                </div>
+            </div><br>
+
+
+            <div class="b1">
+                <h3>求職條件</h3><hr style="border: solid rgb(121, 170, 170);"><br>
+                <div class="c3">
+                    <div><strong>希望性質</strong></div>
+                    <div>正職工作</div>
+                    <div><strong>上班時段</strong></div>
+                    <div>依公司規定</div>
+                    <div><strong>可上班日</strong></div>
+                    <div>錄取後隨時可上班</div>
+                    <div><strong>希望待遇</strong></div>
+                    <div>依公司規定</div>
+                    <div><strong>希望地點</strong></div>
+                    <div>台中</div>
+                </div><hr style="border-top: 1px dashed; width: 900px;"><br>
+                <div class="c4">
+                    <div><strong>希望職稱</strong></div>
+                    <div>工程師</div>
+                    <div><strong>希望職類</strong></div>
+                    <div>自動控制</div>
+                </div>
+            </div><br>
+
+
+            <div class="b1">
+                <h3>學歷</h3><hr style="border: solid rgb(121, 170, 170);"><br>
+                <div class="c2">
+                    <div><strong>逢甲大學</strong></div>
+                    <div>機械與電腦輔助工程稱學系</div>
+                </div><br>
+            </div><br>
+
+
+            <div class="b1">
+                <h3>語文能力</h3><hr style="border: solid rgb(121, 170, 170);"><br>
+                <div class="c2">
+                    <div><strong>英文</strong></div>
+                    <div>
+                        <div>聽:精通 | 說:精通 | 讀:精通 | 寫:精通</div>
+                        <div>TOEIC SCORE: 760</div>
+                    </div><br>
+                    <div><strong>德文</strong></div>
+                    <div>略懂</div>
+                </div><br>
+            </div>
+            <br><br>
+        </div>
+        <aside></aside>
+    </div>
+    <footer></footer>
+
 </body>
 </html>
